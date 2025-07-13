@@ -25,12 +25,12 @@ jobs:
             "// Added explanation for InsertLast logic" \
             "// Refactored minor logic step" \
             "// Updated comment for InsertAtPos")
-          echo "$COMMENT" | cat - DoublyCLL.cpp > temp && mv temp DoublyCLL.cpp
+          echo "$COMMENT" | cat - DSA_Practice.cpp > temp && mv temp DSA_Practice.cpp
 
       - name: Commit and push
         run: |
           git config --global user.name "vaibhavpatilX"
           git config --global user.email "patil.vaibhavx@gmail.com"
-          git add DoublyCLL.cpp
+          git add DSA_Practice.cpp
           git commit -m "🧠 Code clarity improvement on $(date +'%d-%m-%Y')"
           git push
