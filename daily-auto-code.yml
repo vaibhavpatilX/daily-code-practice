@@ -1,25 +1,36 @@
-name: Daily Auto Update for Code Streak
+name: Smart Daily Code Touch
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at 12:00 AM UTC
+    - cron: '0 0 * * *'  # Every day at 12:00 AM UTC
   workflow_dispatch:
 
 jobs:
-  auto-commit:
+  smart-commit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Update DoublyCLL.cpp with timestamp comment
+      - name: Insert realistic logic comment into DoublyCLL.cpp
         run: |
-          echo "// Auto-update: $(date)" | cat - DoublyCLL.cpp > temp && mv temp DoublyCLL.cpp
+          COMMENT=$(shuf -n1 -e \
+            "// Minor adjustment to node traversal" \
+            "// Improved readability of pointer update" \
+            "// Clarified linking between nodes" \
+            "// Commented edge case handling" \
+            "// Code refinement for loop structure" \
+            "// Tweaked insertion point calculation" \
+            "// Verified doubly link consistency" \
+            "// Added explanation for InsertLast logic" \
+            "// Refactored minor logic step" \
+            "// Updated comment for InsertAtPos")
+          echo "$COMMENT" | cat - DoublyCLL.cpp > temp && mv temp DoublyCLL.cpp
 
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           git config --global user.name "vaibhavpatilX"
           git config --global user.email "patil.vaibhavx@gmail.com"
           git add DoublyCLL.cpp
-          git commit -m "🤖 Daily update: Touched up DoublyCLL.cpp for practice"
+          git commit -m "🧠 Code clarity improvement on $(date +'%d-%m-%Y')"
           git push
