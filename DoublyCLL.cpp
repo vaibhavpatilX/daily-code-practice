@@ -1,6 +1,3 @@
-// Improved readability of pointer update
-//Improved logic handling in insertLast()
-
 #include<iostream>
 using namespace std;
 
