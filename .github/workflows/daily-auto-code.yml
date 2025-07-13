@@ -27,17 +27,17 @@ jobs:
             "// Updated comment for InsertAtPos")
 
           # Remove previous auto-comment line(s)
-          tail -n +2 DoublyCLL.cpp | sed '/^\/\/ [A-Z]/d' > temp.cpp
+          tail -n +2 DSA_Practice.cpp | sed '/^\/\/ [A-Z]/d' > temp.cpp
 
           # Add the new smart comment to the top
           echo "$COMMENT" > header.cpp
-          cat header.cpp temp.cpp > DoublyCLL.cpp
+          cat header.cpp temp.cpp > DSA_Practice.cpp
           rm temp.cpp header.cpp
 
       - name: Commit and push
         run: |
           git config --global user.name "vaibhavpatilX"
           git config --global user.email "patil.vaibhavx@gmail.com"
-          git add DoublyCLL.cpp
+          git add DSA_Practice.cpp
           git commit -m "🧠 Code clarity improvement on $(date +'%d-%m-%Y')"
           git push
