@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Insert realistic logic comment into DoublyCLL.cpp
+      - name: Insert realistic logic comment into DSA_Practice.cpp
         run: |
           COMMENT=$(shuf -n1 -e \
             "// Minor adjustment to node traversal" \
