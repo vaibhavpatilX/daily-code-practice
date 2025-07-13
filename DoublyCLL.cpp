@@ -1,4 +1,4 @@
-#include<iostream>
+// Tweaked insertion point calculation
 using namespace std;
 
 struct node
