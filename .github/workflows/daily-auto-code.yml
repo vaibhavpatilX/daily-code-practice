@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Insert realistic logic comment into DoublyCLL.cpp
+      - name: Replace existing comment with a new one
         run: |
           COMMENT=$(shuf -n1 -e \
             "// Minor adjustment to node traversal" \
@@ -25,7 +25,14 @@ jobs:
             "// Added explanation for InsertLast logic" \
             "// Refactored minor logic step" \
             "// Updated comment for InsertAtPos")
-          echo "$COMMENT" | cat - DoublyCLL.cpp > temp && mv temp DoublyCLL.cpp
+
+          # Remove previous auto-comment line(s)
+          tail -n +2 DoublyCLL.cpp | sed '/^\/\/ [A-Z]/d' > temp.cpp
+
+          # Add the new smart comment to the top
+          echo "$COMMENT" > header.cpp
+          cat header.cpp temp.cpp > DoublyCLL.cpp
+          rm temp.cpp header.cpp
 
       - name: Commit and push
         run: |
