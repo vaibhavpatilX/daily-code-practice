@@ -1,10 +1,9 @@
-
+// Minor adjustment to node traversal
 
 #include<iostream>
 using namespace std;
 
 ////////////////////////////////////////////////////////////////
-// Structure for Singly Linear and Singly Circular
 
 template <class T>
 struct nodeS
@@ -14,7 +13,6 @@ struct nodeS
 };
 
 ////////////////////////////////////////////////////////////////
-// Structure for Doubly Linear and doubly Circular
 
 template <class T>
 struct nodeD
@@ -25,7 +23,6 @@ struct nodeD
 };
 
 ////////////////////////////////////////////////////////////////
-// Structure Binary Search Tree
 
 template<class T>
 struct nodeT 
@@ -37,7 +34,6 @@ struct nodeT
 
 ////////////////////////////////////////////////////////////////
 
-// Class of Singly Linear Linked List
 
 template <class T>
 class SinglyLL
@@ -84,7 +80,6 @@ class SinglyLL
 
 ////////////////////////////////////////////////////////////////
 
-// Class of Singly Circular Linked List
 
 template <class T>
 class SinglyCL
@@ -131,7 +126,6 @@ class SinglyCL
 
 ////////////////////////////////////////////////////////////////
 
-// Class of Doubly Linear Linked List
 
 template <class T>
 class DoublyLL
@@ -177,7 +171,6 @@ class DoublyLL
 
 ////////////////////////////////////////////////////////////////
 
-// Class of Doubly Circular Linked List
 
 template <class T>
 class DoublyCL
@@ -224,7 +217,6 @@ class DoublyCL
 
 ////////////////////////////////////////////////////////////////
 
-// Class of Stack 
 
 template <class T>
 class Stack
@@ -266,7 +258,6 @@ class Stack
 
 ////////////////////////////////////////////////////////////////
 
-// Class of Queue 
 
 template <class T>
 class Queue
@@ -308,7 +299,6 @@ class Queue
 
 ////////////////////////////////////////////////////////////////
 
-// Class of Binery Search Tree
 
 template<class T>
 class BST
