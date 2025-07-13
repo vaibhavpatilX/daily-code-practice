@@ -1,4 +1,4 @@
-// Tweaked insertion point calculation
+// Improved readability of pointer update
 using namespace std;
 
 struct node
