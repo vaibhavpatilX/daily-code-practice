@@ -1,6 +1,3 @@
-// Auto-update: Sun Jul 13 15:21:53 UTC 2025
-// Auto-update: Sun Jul 13 15:21:23 UTC 2025
-
 //Improved logic handling in insertLast()
 
 #include<iostream>
