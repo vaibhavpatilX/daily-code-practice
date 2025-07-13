@@ -1,5 +1,6 @@
-// Auto-update: Sun Jul 13 15:12:49 UTC 2025
-// Auto-update: Mon Jul 15 00:00:00 UTC 2025
+
+//Improved logic handling in insertLast()
+
 #include<iostream>
 using namespace std;
 
