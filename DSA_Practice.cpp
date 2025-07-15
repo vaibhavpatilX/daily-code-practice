@@ -1,4 +1,4 @@
-// Added explanation for InsertLast logic
+// Commented edge case handling
 
 #include<iostream>
 using namespace std;
