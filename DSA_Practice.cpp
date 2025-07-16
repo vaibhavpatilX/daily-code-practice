@@ -1,4 +1,4 @@
-// Commented edge case handling
+// Tweaked insertion point calculation
 
 #include<iostream>
 using namespace std;
