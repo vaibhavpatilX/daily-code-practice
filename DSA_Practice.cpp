@@ -1,4 +1,4 @@
-// Tweaked insertion point calculation
+// Added explanation for InsertLast logic
 
 #include<iostream>
 using namespace std;
