@@ -1,4 +1,4 @@
-// Added explanation for InsertLast logic
+// Minor adjustment to node traversal
 
 #include<iostream>
 using namespace std;
