@@ -1,4 +1,4 @@
-// Minor adjustment to node traversal
+// Refactored minor logic step
 
 #include<iostream>
 using namespace std;
