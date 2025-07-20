@@ -1,4 +1,4 @@
-// Refactored minor logic step
+// Added explanation for InsertLast logic
 
 #include<iostream>
 using namespace std;
