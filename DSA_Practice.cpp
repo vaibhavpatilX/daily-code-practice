@@ -1,4 +1,4 @@
-// Tweaked insertion point calculation
+// Refactored minor logic step
 //Cpp code
 #include<iostream>
 using namespace std;
