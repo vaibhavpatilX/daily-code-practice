@@ -1,4 +1,4 @@
-// Refactored minor logic step
+// Clarified linking between nodes
 //Cpp code
 #include<iostream>
 using namespace std;
