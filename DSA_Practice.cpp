@@ -1,4 +1,4 @@
-// Clarified linking between nodes
+// Verified doubly link consistency
 //Cpp code
 #include<iostream>
 using namespace std;
