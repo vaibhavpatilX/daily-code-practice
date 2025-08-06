@@ -1,4 +1,4 @@
-// Verified doubly link consistency
+// Code refinement for loop structure
 //Cpp code
 #include<iostream>
 using namespace std;
