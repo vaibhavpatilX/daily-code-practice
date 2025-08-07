@@ -1,4 +1,4 @@
-// Code refinement for loop structure
+// Minor adjustment to node traversal
 //Cpp code
 #include<iostream>
 using namespace std;
