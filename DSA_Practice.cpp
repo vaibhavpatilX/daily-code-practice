@@ -1,4 +1,4 @@
-// Minor adjustment to node traversal
+// Improved readability of pointer update
 //Cpp code
 #include<iostream>
 using namespace std;
