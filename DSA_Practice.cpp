@@ -1,4 +1,4 @@
-// Improved readability of pointer update
+// Commented edge case handling
 //Cpp code
 #include<iostream>
 using namespace std;
