@@ -1,4 +1,4 @@
-// Updated comment for InsertAtPos
+// Minor adjustment to node traversal
 //Cpp code
 #include<iostream>
 using namespace std;
