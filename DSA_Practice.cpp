@@ -1,4 +1,4 @@
-// Minor adjustment to node traversal
+// Verified doubly link consistency
 //Cpp code
 #include<iostream>
 using namespace std;
