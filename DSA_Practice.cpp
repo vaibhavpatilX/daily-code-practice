@@ -1,4 +1,4 @@
-// Improved readability of pointer update
+// Tweaked insertion point calculation
 //Cpp code
 #include<iostream>
 using namespace std;
