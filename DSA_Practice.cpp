@@ -1,4 +1,4 @@
-// Updated comment for InsertAtPos
+// Refactored minor logic step
 //Cpp code
 #include<iostream>
 using namespace std;
