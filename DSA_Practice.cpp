@@ -1,4 +1,4 @@
-// Verified doubly link consistency
+// Commented edge case handling
 //Cpp code
 #include<iostream>
 using namespace std;
