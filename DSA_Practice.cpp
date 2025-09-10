@@ -188,6 +188,8 @@ class DoublyCL
         void DeleteFirst();
         void DeleteLast();
         void DeleteAtPos(int iPos);
+        void first();
+        void last();
 
         void Display();
         int Count();
