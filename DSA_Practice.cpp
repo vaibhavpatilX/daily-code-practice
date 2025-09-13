@@ -1,4 +1,4 @@
-// Refactored minor logic step
+// Improved readability of pointer update
 //Cpp code
 #include<iostream>
 using namespace std;
