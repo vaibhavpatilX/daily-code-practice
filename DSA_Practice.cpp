@@ -1,4 +1,4 @@
-// Clarified linking between nodes
+// Code refinement for loop structure
 //Cpp code
 #include<iostream>
 using namespace std;
