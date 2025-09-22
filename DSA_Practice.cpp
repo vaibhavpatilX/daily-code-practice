@@ -1,5 +1,5 @@
 // Improved readability of pointer update
-//convert thiss
+//convert this
 #include<iostream>
 using namespace std;
 
