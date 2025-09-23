@@ -1,4 +1,4 @@
-#include<iostream>
+// Refactored minor logic step
 using namespace std;
 
 template <class T>
