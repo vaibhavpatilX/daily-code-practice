@@ -1,4 +1,4 @@
-// Refactored minor logic step
+// Improved readability of pointer update
 using namespace std;
 
 template <class T>
