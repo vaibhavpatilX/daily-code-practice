@@ -1,4 +1,4 @@
-// Improved readability of pointer update
+// Updated comment for InsertAtPos
 using namespace std;
 
 template <class T>
