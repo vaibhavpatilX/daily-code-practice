@@ -1,4 +1,4 @@
-// Updated comment for InsertAtPos
+// Refactored minor logic step
 using namespace std;
 
 template <class T>
