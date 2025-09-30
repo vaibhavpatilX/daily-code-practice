@@ -1,4 +1,4 @@
-// Tweaked insertion point calculation
+// Commented edge case handling
 using namespace std;
 
 template <class T>
