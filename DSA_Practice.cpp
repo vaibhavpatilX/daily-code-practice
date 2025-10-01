@@ -1,4 +1,4 @@
-// Commented edge case handling
+// Updated comment for InsertAtPos
 using namespace std;
 
 template <class T>
