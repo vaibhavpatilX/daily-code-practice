@@ -1,4 +1,4 @@
-// Updated comment for InsertAtPos
+// Tweaked insertion point calculation
 using namespace std;
 
 template <class T>
