@@ -1,4 +1,4 @@
-// Clarified linking between nodes
+// Refactored minor logic step
 using namespace std;
 
 template <class T>
