@@ -1,4 +1,4 @@
-// Clarified linking between nodes
+// Updated comment for InsertAtPos
 using namespace std;
 
 template <class T>
