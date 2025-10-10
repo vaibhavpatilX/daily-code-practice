@@ -1,4 +1,4 @@
-// Updated comment for InsertAtPos
+// Added explanation for InsertLast logic
 using namespace std;
 
 template <class T>
