@@ -1,4 +1,4 @@
-// Verified doubly link consistency
+// Code refinement for loop structure
 using namespace std;
 
 template <class T>
