@@ -1,4 +1,4 @@
-// Clarified linking between nodes
+// Verified doubly link consistency
 using namespace std;
 
 template <class T>
