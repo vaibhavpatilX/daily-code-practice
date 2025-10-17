@@ -1,4 +1,4 @@
-// Verified doubly link consistency
+// Improved readability of pointer update
 using namespace std;
 
 template <class T>
