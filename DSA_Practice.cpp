@@ -1,4 +1,4 @@
-// Code refinement for loop structure
+// Improved readability of pointer update
 using namespace std;
 
 template <class T>
