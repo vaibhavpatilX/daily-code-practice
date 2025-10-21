@@ -1,4 +1,4 @@
-// Improved readability of pointer update
+// Minor adjustment to node traversal
 using namespace std;
 
 template <class T>
