@@ -1,4 +1,4 @@
-// Minor adjustment to node traversal
+// Code refinement for loop structure
 using namespace std;
 
 template <class T>
