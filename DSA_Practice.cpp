@@ -1,4 +1,4 @@
-// Code refinement for loop structure
+// Refactored minor logic step
 using namespace std;
 
 template <class T>
