@@ -2,7 +2,7 @@ name: Smart Daily Code Touch
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Every day at 12:00 AM UTC
+    - cron: '0 0 * * *'  # Every day at 12:00 AM UTC (5:30 AM IST)
   workflow_dispatch:
 
 jobs:
@@ -12,25 +12,37 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Insert realistic logic comment into DoublyCLL.cpp
+      - name: Perform random realistic commits
         run: |
-          COMMENT=$(shuf -n1 -e \
-            "// Minor adjustment to node traversal" \
-            "// Improved readability of pointer update" \
-            "// Clarified linking between nodes" \
-            "// Commented edge case handling" \
-            "// Code refinement for loop structure" \
-            "// Tweaked insertion point calculation" \
-            "// Verified doubly link consistency" \
-            "// Added explanation for InsertLast logic" \
-            "// Refactored minor logic step" \
-            "// Updated comment for InsertAtPos")
-          echo "$COMMENT" | cat - DoublyCLL.cpp > temp && mv temp DoublyCLL.cpp
+          # Generate a random number between 1 and 10 (inclusive)
+          COMMIT_COUNT=$(( ( RANDOM % 10 ) + 1 ))
+          echo "🔁 Will perform $COMMIT_COUNT commits today."
 
-      - name: Commit and push
-        run: |
-          git config --global user.name "vaibhavpatilX"
-          git config --global user.email "patil.vaibhavx@gmail.com"
-          git add DoublyCLL.cpp
-          git commit -m "🧠 Code clarity improvement on $(date +'%d-%m-%Y')"
+          for ((i=1; i<=COMMIT_COUNT; i++)); do
+            COMMENT=$(shuf -n1 -e \
+              "// Minor adjustment to node traversal" \
+              "// Improved readability of pointer update" \
+              "// Clarified linking between nodes" \
+              "// Commented edge case handling" \
+              "// Code refinement for loop structure" \
+              "// Tweaked insertion point calculation" \
+              "// Verified doubly link consistency" \
+              "// Added explanation for InsertLast logic" \
+              "// Refactored minor logic step" \
+              "// Updated comment for InsertAtPos")
+
+            # Prepend comment to file
+            echo "$COMMENT" | cat - DoublyCLL.cpp > temp && mv temp DoublyCLL.cpp
+
+            # Commit each change
+            git config --global user.name "vaibhavpatilX"
+            git config --global user.email "patil.vaibhavx@gmail.com"
+            git add DoublyCLL.cpp
+            git commit -m "🧠 Code clarity improvement #$i on $(date +'%d-%m-%Y %H:%M:%S')"
+            
+            # Add small random delay (1–5 seconds) to mimic human-like timing
+            sleep $(( ( RANDOM % 5 ) + 1 ))
+          done
+
+          # Push all commits once after loop ends
           git push
