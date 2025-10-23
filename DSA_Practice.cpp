@@ -1,4 +1,4 @@
-// Commented edge case handling
+// Code refinement for loop structure
 using namespace std;
 
 template <class T>
