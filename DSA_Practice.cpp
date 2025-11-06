@@ -1,4 +1,4 @@
-// Minor adjustment to node traversal
+// Verified doubly link consistency
 using namespace std;
 
 template <class T>
