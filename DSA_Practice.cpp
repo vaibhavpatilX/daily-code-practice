@@ -1,4 +1,4 @@
-// Verified doubly link consistency
+// Updated comment for InsertAtPos
 using namespace std;
 
 template <class T>
