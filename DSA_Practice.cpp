@@ -1,5 +1,7 @@
 // Minor adjustment to node traversal
 // Updated
+
+#include<iostream>
 using namespace std;
 
 template <class T>
