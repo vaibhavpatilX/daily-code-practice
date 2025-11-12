@@ -1,4 +1,4 @@
-// Refactored minor logic step
+// Commented edge case handling
 
 #include<iostream>
 using namespace std;
