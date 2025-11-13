@@ -158,6 +158,7 @@ void DoublyCLL<T> :: DeleteFirst()
     iCount--;
 }
 
+//
 template <class T>
 void DoublyCLL<T> :: DeleteLast()
 {
