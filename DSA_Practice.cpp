@@ -2,8 +2,6 @@
 
 #include<iostream>
 using namespace std;
-// Updated code
-
 
 template <class T>
 struct DoublyCLLnode
