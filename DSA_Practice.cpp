@@ -134,6 +134,8 @@ int DoublyCLL<T> :: Count()
     return iCount;  
 }
 
+
+//
 template <class T>
 void DoublyCLL<T> :: DeleteFirst()
 {
