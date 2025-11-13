@@ -75,6 +75,7 @@ void DoublyCLL<T> :: InsertFirst(T no)
     iCount++;
 }
 
+//
 template <class T>
 void DoublyCLL<T> :: InsertLast(T no)
 {
