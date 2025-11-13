@@ -186,6 +186,7 @@ void DoublyCLL<T> :: DeleteLast()
     iCount--;
 }
 
+//
 template <class T>
 void DoublyCLL<T> :: InsertAtPos(T no, int pos)
 {
