@@ -1,4 +1,4 @@
-// Commented edge case handling
+// Code refinement for loop structure
 
 #include<iostream>
 using namespace std;
