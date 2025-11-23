@@ -240,7 +240,7 @@ void DoublyCLL<T> :: InsertAtPos(T no, int pos)
     }
 }
 
-//with 1 temp (Without target)
+//with 1 temp (Without target).
 template <class T>
 void DoublyCLL<T> :: DeleteAtPos(int pos)
 {
