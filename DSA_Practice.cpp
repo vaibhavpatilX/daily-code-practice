@@ -1,5 +1,6 @@
 // Verified doubly link consistency
 
+
 #include<iostream>
 using namespace std;
 
@@ -11,7 +12,7 @@ struct DoublyCLLnode
     struct DoublyCLLnode<T> *prev;
 };
 
-//
+//DoublyCLL class
 template <class T>
 class DoublyCLL
 {
