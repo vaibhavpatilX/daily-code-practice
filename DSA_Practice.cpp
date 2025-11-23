@@ -137,7 +137,7 @@ int DoublyCLL<T> :: Count()
 }
 
 
-//
+//DeleteFirst
 template <class T>
 void DoublyCLL<T> :: DeleteFirst()
 {
