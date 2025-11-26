@@ -1,4 +1,4 @@
-// Tweaked insertion point calculation
+// Verified doubly link consistency
 
 
 #include<iostream>
