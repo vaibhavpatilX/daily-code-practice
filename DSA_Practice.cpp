@@ -1,4 +1,4 @@
-// Updated comment for InsertAtPos
+// Improved readability of pointer update
 
 
 #include<iostream>
