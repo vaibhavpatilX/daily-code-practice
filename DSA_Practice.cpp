@@ -1,4 +1,4 @@
-// Improved readability of pointer update
+// Verified doubly link consistency
 
 
 #include<iostream>
