@@ -1,4 +1,4 @@
-// Tweaked insertion point calculation
+// Minor adjustment to node traversal
 
 
 #include<iostream>
