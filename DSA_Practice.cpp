@@ -1,4 +1,4 @@
-// Minor adjustment to node traversal
+// Code refinement for loop structure
 
 
 #include<iostream>
