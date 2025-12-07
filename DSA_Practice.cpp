@@ -1,4 +1,4 @@
-// Commented edge case handling
+// Refactored minor logic step
 
 
 #include<iostream>
