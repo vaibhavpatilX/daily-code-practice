@@ -1,4 +1,4 @@
-// Verified doubly link consistency
+// Commented edge case handling
 
 
 #include<iostream>
