@@ -1,4 +1,4 @@
-// Added explanation for InsertLast logic
+// Verified doubly link consistency
 
 
 #include<iostream>
