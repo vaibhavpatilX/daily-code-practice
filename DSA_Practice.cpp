@@ -1,4 +1,4 @@
-// Verified doubly link consistency
+// Refactored minor logic step
 
 
 #include<iostream>
