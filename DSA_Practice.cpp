@@ -1,4 +1,4 @@
-// Verified doubly link consistency
+// Minor adjustment to node traversal
 
 
 #include<iostream>
