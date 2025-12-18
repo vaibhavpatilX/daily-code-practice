@@ -1,4 +1,4 @@
-// Commented edge case handling
+// Improved readability of pointer update
 
 
 #include<iostream>
