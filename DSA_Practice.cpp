@@ -1,4 +1,4 @@
-// Improved readability of pointer update
+// Clarified linking between nodes
 
 
 #include<iostream>
