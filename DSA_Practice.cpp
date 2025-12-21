@@ -1,4 +1,4 @@
-// Clarified linking between nodes
+// Refactored minor logic step
 
 
 #include<iostream>
