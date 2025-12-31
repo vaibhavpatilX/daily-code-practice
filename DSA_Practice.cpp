@@ -1,4 +1,4 @@
-// Improved readability of pointer update
+// Added explanation for InsertLast logic
 
 
 #include<iostream>
