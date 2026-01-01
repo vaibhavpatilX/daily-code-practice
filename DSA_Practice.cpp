@@ -1,4 +1,4 @@
-// Added explanation for InsertLast logic
+// Updated comment for InsertAtPos
 
 
 #include<iostream>
