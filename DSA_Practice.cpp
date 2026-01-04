@@ -1,4 +1,4 @@
-// Code refinement for loop structure
+// Refactored minor logic step
 
 
 #include<iostream>
